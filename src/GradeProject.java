@@ -3,5 +3,7 @@ public class GradeProject {
     public void setGrade (double g){
         score = g;
     }
-
+public void displayGrade(){
+    System.out.println("Scores: " + score);
+}
 }
